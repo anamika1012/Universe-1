@@ -1,0 +1,5 @@
+C:\Users\Rhyma\Universe-1\Assets\Scripts\obj\Debug\net6.0\Scripts.csproj.AssemblyReference.cache
+C:\Users\Rhyma\Universe-1\Assets\Scripts\obj\Debug\net6.0\Scripts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rhyma\Universe-1\Assets\Scripts\obj\Debug\net6.0\Scripts.AssemblyInfoInputs.cache
+C:\Users\Rhyma\Universe-1\Assets\Scripts\obj\Debug\net6.0\Scripts.AssemblyInfo.cs
+C:\Users\Rhyma\Universe-1\Assets\Scripts\obj\Debug\net6.0\Scripts.csproj.CoreCompileInputs.cache
