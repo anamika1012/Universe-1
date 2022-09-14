@@ -9,12 +9,16 @@ public class Universe1_BookScript : MonoBehaviour
     public Transform target;
     public moveBook bookmove;
     public float t;
-    //public AudioSource Correct;
+    public AudioSource findpage;
 
     void OnTriggerEnter(Collider other)
     {
-
-        if (other.CompareTag("Player") && !U1_key1.activeSelf && !U1_key2.activeSelf && !U1_key3.activeSelf)
+        if (other.CompareTag("Player") &&(U1_key1.activeSelf || U1_key2.activeSelf ||U1_key3.activeSelf))
+        {
+            findpage.Play();
+        }
+            
+        else if (other.CompareTag("Player") && !U1_key1.activeSelf && !U1_key2.activeSelf && !U1_key3.activeSelf)
         {
             //Correct.Play();
             Destroy(gameObject);
