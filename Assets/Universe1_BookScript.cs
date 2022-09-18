@@ -26,6 +26,7 @@ public class Universe1_BookScript : MonoBehaviour
             Destroy(gameObject);
             bookmove.sceptor();
 
+
             // StartCoroutine(ExecuteAfterTime());
         }
     }

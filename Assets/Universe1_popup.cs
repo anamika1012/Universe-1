@@ -8,7 +8,7 @@ public class Universe1_popup : MonoBehaviour
 
 
     [SerializeField]
-    private GameObject clue1;
+    public GameObject clue1;
 
     // Start is called before the first frame update
     void OnTriggerEnter(Collider other)
